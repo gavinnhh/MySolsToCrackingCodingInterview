@@ -15,7 +15,7 @@ def oneStepAway(s1, s2):
         
     if count == 1 or count == 0:
         return True
-    elif len(s1) == len(s2) and count == 2:
+    elif len(s1) == len(s2) and count == 2: # if length the same, then we do replacement
         return True
     else:
         return False
