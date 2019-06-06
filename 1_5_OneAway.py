@@ -10,7 +10,7 @@ pale, bale -) true
 '''
 
 def oneStepAway(s1, s2):
-    if len(s1) - len(s2) > 1: 
+    if len(s1) - len(s2) > 1:  # if the length difference is more than 1 then it is surely not a one edit away
         return False
     
     s = s1 + s2
