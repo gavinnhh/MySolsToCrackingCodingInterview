@@ -9,7 +9,7 @@ def oneStepAway(s1, s2):
         num = ord(c) - ord('a')
         bitVector ^= (1 << num)
     
-    while bitVector != 0:
+    while bitVector != 0:  # count how many 1 in the bitVector in bin form
         bitVector &= bitVector - 1
         count += 1
         
